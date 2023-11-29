@@ -1,4 +1,4 @@
- for row in context.table:
+    for row in context.table:
         payload = {
             "name": row['name'],
             "description": row['description'],
